@@ -1,0 +1,144 @@
+.favoriteModal__noLoggedInUser {
+	display: none;
+}
+.favoriteModal__modal {
+	position: fixed;
+	bottom: 50px;
+	right: 50px;
+	transition: all 0.3s ease-in-out;
+	z-index: 999;
+	transform: translateY(100%);
+}
+.favoriteModal__main {
+	background-color: #f1f1f1;
+	border-radius: 7px;
+	width: 340px;
+	padding: 30px 20px;
+	box-sizing: border-box;
+	transform: translateY(25%);
+	transition: all 0.3s ease-in-out;
+	box-shadow: 0px 0px 10px 1px #bbb;
+}
+.favoriteModal__favoriteButton {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	color: white;
+	position: fixed;
+	right: 20px;
+	top: -25px;
+	border-radius: 50%;
+	z-index: 999;
+	cursor: pointer;
+	padding: 15px;
+	border: none;
+	outline: none;
+	transition: all 0.3s ease-in-out;
+}
+#openModal .favoriteModal__main,
+#openModal {
+	transform: translateY(0%);
+}
+
+#favoriteAddRemove {
+	animation: bounce 0.9s ease-in-out;
+}
+
+@keyframes bounce {
+	40% {
+		transform: scaleY(0.6);
+	}
+	60% {
+		transform: scaleX(0.8);
+	}
+	70% {
+		transform: scaleY(0.8);
+	}
+	80% {
+		transform: scaleX(0.9);
+	}
+	90% {
+		transform: scaleY(0.9);
+	}
+	100% {
+		transform: scaleY(1);
+		transform: scaleX(1);
+	}
+}
+
+.favoriteModal__modal img {
+	object-fit: contain;
+	margin-top: 20px;
+}
+
+.favoriteModal__favoriteProducts {
+	background-color: white;
+	padding: 20px;
+	max-height: 400px;
+	height: 100%;
+	overflow-y: auto;
+	font-size: 14px;
+}
+.favoriteModal__favoriteProduct {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	border-bottom: 1px solid lightgray;
+	padding-bottom: 10px;
+}
+
+.favoriteModal__favoriteProductImage img {
+	object-fit: contain;
+	height: 50px;
+	width: 45px;
+}
+.favoriteModal__favoriteProductInfo:hover {
+	text-decoration: underline;
+}
+.favoriteModal__favoriteProductName {
+	margin-bottom: 5px;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	width: 180px;
+}
+
+.favoriteModal__favoriteProductPrice span {
+	color: #707070;
+}
+
+.favoriteModal__deleteIcon {
+	cursor: pointer;
+	color: #cfcfcf;
+	width: 18px;
+	height: 18px;
+}
+.favoriteModal__deleteIcon:hover {
+	color: #a1a1a1;
+}
+
+.favoriteModal__allFavoritesLink button {
+	margin-top: 20px;
+	width: 100%;
+	padding: 12px 0px;
+	outline: none;
+	border: none;
+	border-radius: 4px;
+	cursor: pointer;
+	background-color: #dcdcdc;
+	color: #363636;
+	font-size: 14px;
+	font-weight: 500;
+}
+.favoriteModal__allFavoritesLink button:hover {
+	background-color: #c2c2c2;
+}
+
+@media (max-width: 483px) {
+	.favoriteModal__modal {
+		position: fixed;
+		bottom: 50px;
+		right: 20px;
+
+	}
+}

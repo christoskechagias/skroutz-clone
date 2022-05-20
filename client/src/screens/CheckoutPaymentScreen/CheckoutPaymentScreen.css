@@ -1,0 +1,56 @@
+.checkoutPaymentScreen__main {
+	max-width: 1200px;
+	width: 90%;
+	margin: auto;
+	padding-top: 50px;
+	padding-bottom: 100px;
+}
+.checkoutPaymentScreen__title {
+	font-size: 26px;
+	margin-bottom: 10px;
+}
+.checkoutPaymentScreen__paymentAndCartSummary {
+	display: grid;
+	grid-template-columns: auto 370px;
+	grid-gap: 100px;
+	align-items: flex-start;
+}
+
+.checkoutPaymentScreen__backButton {
+	height: 42px;
+	width: fit-content;
+	margin-top: 30px;
+}
+.checkoutPaymentScreen__backButton button {
+	justify-content: space-around;
+	align-items: center;
+	display: flex;
+	height: 42px;
+	font-size: 14px;
+	padding-left: 10px;
+	padding-right: 20px;
+	border-radius: 5px;
+	color: #707070;
+	border: 1px solid #707070;
+}
+
+.checkoutPaymentScreen__backButton button:hover {
+	background-color: #707070;
+	color: white;
+	cursor: pointer;
+}
+@media (max-width: 960px) {
+	.checkoutPaymentScreen__main {
+		width: 90%;
+		max-width: 550px;
+	}
+	.checkoutPaymentScreen__paymentAndCartSummary {
+		display: flex;
+		flex-direction: column;
+		width: 100%;
+		grid-gap: 0px;
+	}
+	.checkoutDetailsScreen__title {
+		font-size: 18px;
+	}
+}

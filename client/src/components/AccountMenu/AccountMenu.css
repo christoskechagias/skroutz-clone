@@ -1,0 +1,190 @@
+.accountMenu__content {
+	background-color: #beccd5;
+	min-height: 200px;
+	position: relative;
+}
+.accountMenu__wrapperMain {
+	background-color: white;
+	border-bottom: 1px solid #dcdcdc;
+	border-top: 1px solid #dcdcdc;
+	position: absolute;
+	bottom: 0px;
+	width: 100%;
+}
+
+.accountMenu__main {
+	display: grid;
+	grid-template-columns: 300px auto;
+	height: 62px;
+	align-items: flex-start;
+	max-width: 1500px;
+	width: 90%;
+	margin: auto;
+}
+.accountMenu__userCard {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	background-color: white;
+	border: 1px solid lightgray;
+	height: 400px;
+	width: 255px;
+	position: relative;
+	top: -80px;
+	border-radius: 8px;
+	padding: 10px;
+	box-sizing: border-box;
+}
+
+.accountMenu__avatar {
+	margin: 20px 0px;
+	border-radius: 50%;
+}
+
+.accountMenu__username {
+	font-size: 22px;
+	color: #1f1b1b;
+	margin-bottom: 40px;
+}
+.accountMenu__userStats {
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+}
+.accountMenu__userStats p {
+	font-size: 14px;
+	color: #707070;
+	margin-bottom: 10px;
+}
+.accountMenu__userStats span {
+	font-weight: 700;
+	font-size: 14px;
+	margin-right: 20px;
+}
+
+.accountMenu__menuOptions {
+	max-width: 1200px;
+	width: 100%;
+	display: flex;
+	z-index: 20;
+}
+.accountMenu__menuOption {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 60px;
+	position: relative;
+	z-index: 20;
+	margin-right: 30px;
+	cursor: pointer;
+}
+#accountMenu__enabledOption {
+	border-bottom: 2px solid #beccd5;
+	z-index: 0;
+}
+.accountMenu__menuOption:last-child {
+	margin-left: auto;
+}
+
+.accountMenu__menuOptionTitle {
+	display: flex;
+	align-items: center;
+}
+.accountMenu__menuOptionArrowIcon {
+	color: #999;
+	font-size: 22px;
+	margin: 5px 0px 0px 10px;
+}
+.accountMenu__menuOption:hover .accountMenu__menuOptionTitle p {
+	color: #1c7ece;
+}
+.accountMenu__menuOption:hover .accountMenu__menuOptionArrowIcon {
+	color: #3b3b3b;
+}
+.accountMenu__menuDropDownOptions {
+	display: none;
+}
+.accountMenu__menuOption:hover .accountMenu__menuDropDownOptions {
+	display: flex;
+	flex-direction: column;
+	background-color: white;
+	position: absolute;
+	top: 60px;
+	left: -10px;
+	border: 1px solid lightgray;
+	border-radius: 8px;
+	width: max-content;
+	box-sizing: border-box;
+	text-align: right;
+}
+.accountMenu__menuDropDownOption:hover {
+	background-color: #f8f8f8;
+}
+.accountMenu__menuDropDownOption:first-child:hover {
+	border-top-left-radius: 8px;
+	border-top-right-radius: 8px;
+}
+.accountMenu__menuDropDownOption:last-child:hover {
+	border-bottom-left-radius: 8px;
+	border-bottom-right-radius: 8px;
+}
+.accountMenu__menuDropDownOptionTitle {
+	font-size: 14px;
+	padding: 20px;
+}
+.accountMenu__menuDropDownOption:hover .accountMenu__menuDropDownOptionTitle {
+	color: #1c7ece;
+}
+
+.accountAlternativeMenu__content {
+	display: none;
+}
+
+#closeSidebar {
+	transform: translate(-460px, -70px);
+	transition: 0.5s ease-in-out;
+	z-index: 2000;
+}
+#openSidebar {
+	transform: translate(-170px, -70px);
+	transition: 0.5s ease-in-out;
+	z-index: 2000;
+}
+@media (max-width: 1020px) {
+	.accountMenu__content {
+		display: none;
+	}
+	.accountAlternativeMenu__content {
+		background-color: #beccd5;
+		display: flex;
+		justify-content: left;
+		align-items: center;
+		height: 140px;
+		position: relative;
+	}
+	.accountAlternativeMenu__sidebarIcon {
+		position: absolute;
+		top: 20px;
+		right: 20px;
+		color: white;
+		cursor: pointer;
+		height: 20px;
+		width: 20px;
+	}
+	.accountMenu__avatar {
+		margin-left: 20px;
+	}
+	.accountAlternativeMenu__username {
+		display: flex;
+		flex-direction: column;
+		margin-left: 15px;
+	}
+
+	.accountAlternativeMenu__username p {
+		font-size: 22px;
+	}
+	.accountAlternativeMenu__username span {
+		font-size: 16px;
+		font-weight: 700;
+	}
+}

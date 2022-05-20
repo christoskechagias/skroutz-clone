@@ -1,0 +1,28 @@
+.payment {
+	width: 100%;
+	background-color: white;
+	border: 1px solid #e8e8e8;
+	padding: 20px;
+	box-sizing: border-box;
+	margin-bottom: 40px;
+	border-radius: 8px;
+}
+.payment__card {
+	border: 1px solid lightgray;
+	border-radius: 5px;
+	padding: 18px 10px;
+}
+#payment__cardError {
+	border: 1px solid #d52925;
+}
+.payment__error {
+	color: #d52925;
+	font-size: 14px;
+}
+.payment__secureOnline {
+	display: grid;
+	grid-template-columns: 30px auto;
+	justify-content: right;
+	margin-top: 20px;
+	font-size: 14px;
+}

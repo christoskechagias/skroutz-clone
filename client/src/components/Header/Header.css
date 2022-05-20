@@ -1,0 +1,234 @@
+.noHeader {
+	display: none;
+}
+.header__actions {
+	display: flex;
+	align-items: center;
+}
+.header__cart {
+	margin-right: 15px;
+	z-index: 900;
+	position: relative;
+}
+.header__notifications {
+	margin-right: 15px;
+	z-index: 900;
+}
+
+.header__avatar {
+	padding-bottom: 5px;
+	z-index: 900;
+}
+.header__dropdownToggle .cartIconHover,
+.header__dropdownToggle:hover .cartIconNonHover,
+.header__dropdownToggle .notificationIconHover,
+.header__dropdownToggle:hover .notificationIconNonHover,
+.header__dropdownToggle .personIconHover,
+.header__dropdownToggle:hover .personIconNonHover {
+	display: none;
+}
+.header__dropdownToggle:hover .personIconHover,
+.header__dropdownToggle:hover .notificationIconHover,
+.header__dropdownToggle:hover .cartIconHover {
+	display: inline;
+}
+
+#dropdownToggleCartIcon .cartIconNonHover,
+#dropdownToggleNotificationsIcon .notificationIconNonHover,
+#dropdownTogglePersonIcon .personIconNonHover {
+	display: none;
+}
+#dropdownToggleCartIcon .cartIconHover,
+#dropdownToggleNotificationsIcon .notificationIconHover,
+#dropdownTogglePersonIcon .personIconHover {
+	display: inline;
+}
+.header__cartQuantity {
+	border-radius: 50%;
+	height: 15px;
+	width: 15px;
+	background-color: red;
+	color: white;
+	position: absolute;
+	top: -5px;
+	right: -5px;
+	font-size: 11px;
+	text-align: center;
+}
+
+.header__cartDropDownMenu {
+	position: absolute;
+	top: 15px;
+	right: -36px;
+	z-index: 99;
+	width: 350px;
+}
+.header__notificationsDropDownMenu {
+	position: absolute;
+	top: 10px;
+	right: -37px;
+	z-index: 99;
+}
+.header__avatarDropDownMenu {
+	position: absolute;
+	top: 15px;
+	right: -42px;
+	z-index: 99;
+}
+
+.header__registerButton,
+.header__loginButton {
+	color: rgb(131, 131, 131);
+	background-color: transparent;
+	font-size: 16px;
+	border: none;
+	outline: none;
+	border-left: 1px solid lightgray;
+	padding-left: 10px;
+	margin-left: 10px;
+}
+.header__loginButton {
+	margin-left: 0px;
+}
+.header__loginButton:hover,
+.header__registerButton:hover {
+	cursor: pointer;
+	color: #363636;
+}
+
+.header__personButton {
+	display: none;
+}
+.header__dropdownToggle {
+	border: none;
+	cursor: pointer;
+	font-size: 25px !important;
+	background-color: transparent;
+}
+@media (max-width: 960px) {
+	.header__registerButton,
+	.header__loginButton {
+		display: none;
+	}
+	.header__personButton {
+		display: inline;
+	}
+	.header__personDropdownMenu {
+		background-color: white;
+		height: 80px;
+		width: 150px;
+		box-shadow: 0px 0px 7px -1px #707070;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		font-size: 14px;
+		position: absolute;
+		top: 10px;
+		right: -35px;
+		z-index: 99;
+		border-radius: 5px;
+		padding: 10px 0px;
+	}
+	.header__personDropdownMenu::after {
+		content: ' ';
+		position: absolute;
+		right: 15px;
+		top: -12px;
+		border-top: none;
+		border-right: 10px solid transparent;
+		border-left: 10px solid transparent;
+		border-bottom: 12px solid white;
+	}
+	.header__personDropdownMenu p {
+		padding: 10px;
+	}
+	.header__personDropdownMenu p:hover {
+		background-color: #f8f8f8;
+		color: #66a7dc;
+	}
+}
+@media (max-width: 499px) {
+	.header__cartDropDownMenu {
+		width: 270px;
+	}
+}
+
+/* HomePage Header  */
+.homePageHeader__content {
+	max-width: 1360px;
+	width: 95%;
+	margin: auto;
+}
+.homePageHeader__userActions {
+	display: flex;
+	align-items: center;
+	justify-content: flex-end;
+	margin: 30px 0px;
+}
+.homePageHeader__logoAndSearch {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+.homePageHeader__logo {
+	object-fit: contain;
+	height: 80px;
+	width: 200px;
+	cursor: pointer;
+	margin-bottom: 20px;
+}
+.homePageHeader__search {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 100%;
+}
+/*simple page*/
+
+.simplePageHeader__content {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	flex-direction: row-reverse;
+	max-width: 1500px;
+	width: 90%;
+	margin: auto;
+	padding: 20px 0px;
+}
+.simplePageHeader__userActions {
+	display: flex;
+	align-items: center;
+	position: relative;
+	top: 5px;
+	right: -20px;
+}
+
+.simplePageHeader__logoAndSearch {
+	display: grid;
+	grid-template-columns: 140px auto;
+	width: 100%;
+}
+.simplePageHeader__logo {
+	object-fit: contain;
+	height: 35px;
+	cursor: pointer;
+}
+.simplePageHeader__search {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 100%;
+}
+@media (max-width: 800px) {
+	.simplePageHeader__logoAndSearch {
+		display: flex;
+		flex-direction: column;
+		align-items: flex-start;
+		width: 100%;
+	}
+	.simplePageHeader__userActions {
+		position: absolute;
+		top: 30px;
+		right: 40px;
+	}
+}

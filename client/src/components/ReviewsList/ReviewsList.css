@@ -1,0 +1,80 @@
+.reviewsList__sort {
+	margin-bottom: 15px;
+}
+.reviewsList__reviewCard {
+	margin-bottom: 30px;
+}
+.reviewsList {
+	display: flex;
+	flex-direction: column;
+	background-color: white;
+	border: 1px solid #dbdbdb;
+	border-radius: 4px;
+	margin-bottom: 10px;
+}
+.reviewsList__content {
+	padding: 20px;
+	border-bottom: 1px solid #e4e2e2;
+}
+.reviewsList__userSection {
+	display: flex;
+}
+.reviewsList__user {
+	display: flex;
+	flex-direction: column;
+	margin-left: 10px;
+}
+.reviewsList__rating {
+	display: flex;
+	align-items: center;
+}
+.reviewsList__rating p {
+	font-size: 13px;
+	color: #707070;
+	margin-left: 5px;
+}
+
+.reviewsList__userEmail {
+	font-size: 14px;
+	margin-top: 5px;
+}
+.reviewsList__userEmail span {
+	font-size: 13px;
+	color: #707070;
+}
+.reviewsList__review {
+	font-size: 16px;
+	margin-top: 15px;
+	word-wrap: break-word;
+}
+
+.reviewsList__helpfullVote {
+	display: flex;
+	padding: 15px 20px;
+}
+.reviewsList__helpfullVote p {
+	margin-right: 10px;
+	font-size: 13px;
+	color: #707070;
+}
+.reviewsList__helpfullVote button {
+	border: none;
+	text-decoration: underline solid;
+	outline: none;
+	background-color: transparent;
+	margin-right: 10px;
+	cursor: pointer;
+	color: #707070;
+}
+.reviewsList__helpfullVote button:hover {
+	border: none;
+	text-decoration: underline solid;
+	outline: none;
+	background-color: transparent;
+	margin-right: 10px;
+	cursor: pointer;
+	color: black;
+}
+#reviewsList__selectedOption {
+	color: black;
+}

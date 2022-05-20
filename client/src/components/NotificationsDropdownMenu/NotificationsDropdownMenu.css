@@ -1,0 +1,30 @@
+.notificationsDropdownMenu {
+	background-color: white;
+	height: 80px;
+	width: 398px;
+	box-shadow: 0px 0px 7px -1px #707070;
+	border-radius: 10px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+.notificationsDropdownMenu::after {
+	content: ' ';
+	position: absolute;
+	right: 15px;
+	top: -12px;
+	border-top: none;
+	border-right: 10px solid transparent;
+	border-left: 10px solid transparent;
+	border-bottom: 12px solid white;
+}
+.notificationsDropdownMenu__text {
+	margin-left: 20px;
+	margin-right: 20px;
+	color: #707070;
+}
+@media (max-width: 660px) {
+	.notificationsDropdownMenu {
+		width: 270px;
+	}
+}

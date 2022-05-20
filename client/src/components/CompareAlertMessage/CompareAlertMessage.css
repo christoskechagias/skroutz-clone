@@ -1,0 +1,23 @@
+.alertCompareMessage {
+	position: absolute;
+	top: 35px;
+	right: 0px;
+	z-index: 3000;
+	color: white;
+	max-width: 300px;
+	width: 100%;
+
+	border-radius: 4px;
+	box-sizing: border-box;
+	padding: 13px;
+}
+
+.alertCompareMessage__text {
+	font-size: 14px;
+	margin-left: 10px;
+}
+
+.alertCompareMessage__text a {
+	color: white;
+	text-decoration: underline;
+}

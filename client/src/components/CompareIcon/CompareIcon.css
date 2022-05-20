@@ -1,0 +1,22 @@
+.compareIcon__button {
+	margin-top: 5px;
+	background-color: transparent;
+	border-radius: 50%;
+	box-sizing: border-box;
+	cursor: pointer;
+	border: none;
+	width: 35px;
+	height: 35px;
+}
+
+#incomparableItem {
+	color: #bbb;
+}
+#incomparableItem:hover,
+#comparableItem {
+	color: #1c7ece;
+}
+.compareIcon {
+	width: 20px;
+	height: 20px;
+}

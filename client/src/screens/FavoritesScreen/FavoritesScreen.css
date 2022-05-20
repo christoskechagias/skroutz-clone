@@ -1,0 +1,21 @@
+.favoritesScreen__product {
+	display: grid;
+	grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+	grid-gap: 20px;
+}
+
+.favoritesScreen__text {
+	font-size: 14px;
+}
+
+@media (max-width: 580px) {
+	.favoritesScreen__product {
+		display: flex;
+		flex-direction: column;
+		width: 100%;
+	}
+	.favoritesScreen__Title {
+		font-size: 26px;
+		margin-bottom: 32px;
+	}
+}

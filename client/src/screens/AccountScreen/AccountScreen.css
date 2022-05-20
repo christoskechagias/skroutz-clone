@@ -1,0 +1,50 @@
+.accountScreen {
+	max-width: 1500px;
+	width: 90%;
+	margin: auto;
+	display: grid;
+	grid-template-columns: 300px auto;
+}
+.accountSettingsScreen__title {
+	font-size: 26px;
+	margin-bottom: 25px;
+}
+.accountScreen__main {
+	max-width: 1200px;
+	width: 100%;
+	margin-top: 30px;
+	margin-bottom: 100px;
+}
+.accountScreen__main input,
+.accountScreen__main select {
+	max-width: 600px;
+}
+.accountSettingsScreen__button {
+	background-color: #1c7ece;
+	font-size: 14px;
+	color: white;
+	height: 42px;
+	padding: 20px;
+	outline: none;
+	border: 1px solid #1768aa;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border-radius: 3px;
+	margin-top: 20px;
+	font-weight: 500;
+}
+.accountSettingsScreen__button:hover {
+	background-color: #1768aa;
+	cursor: pointer;
+}
+
+@media (max-width: 1020px) {
+	.accountScreen {
+		max-width: 1500px;
+		width: 90%;
+		margin: auto;
+		display: grid;
+		grid-template-columns: auto;
+	}
+}

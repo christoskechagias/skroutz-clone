@@ -1,0 +1,23 @@
+.addEditAddressScreen {
+	max-width: 600px;
+	width: 100%;
+}
+.addOrEditAddressScreen__text {
+	margin-bottom: 10px;
+	font-size: 14px;
+	color: #707070;
+}
+
+.addEditAddressScreen__cityDiv,
+.addEditAddressScreen__streetDiv {
+	display: grid;
+	grid-template-columns: 68% 30%;
+	grid-gap: 2%;
+}
+@media (max-width: 483px) {
+	.addEditAddressScreen__cityDiv,
+	.addEditAddressScreen__streetDiv {
+		display: flex;
+		flex-direction: column;
+	}
+}

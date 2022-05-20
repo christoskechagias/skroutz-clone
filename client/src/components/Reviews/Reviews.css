@@ -1,0 +1,11 @@
+.reviews {
+	display: flex;
+	flex-direction: column;
+	max-width: 1070px;
+	width: 95%;
+	margin: auto;
+	margin-top: 50px;
+}
+.reviews__reviewsList {
+	margin-top: 50px;
+}

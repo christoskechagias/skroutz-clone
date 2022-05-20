@@ -1,0 +1,104 @@
+.reviewsScreen__title {
+	font-size: 26px;
+	margin-bottom: 30px;
+}
+.reviewsScreen__content {
+	background-color: white;
+	border: 1px solid #e8e8e8;
+	border-radius: 8px;
+	padding: 30px;
+	box-sizing: border-box;
+	position: relative;
+}
+.reviewsScreen__product {
+	display: flex;
+	align-items: center;
+}
+.reviewsScreen__productImage {
+	object-fit: contain;
+	height: 70px;
+	width: 70px;
+	border-radius: 50%;
+	border: 1px solid #e8e8e8;
+	margin-right: 10px;
+}
+.reviewsScreen__productName {
+	font-size: 18px;
+}
+.reviewsScreen__reviewDate {
+	font-size: 13px;
+	color: #707070;
+	margin-top: 10px;
+}
+.reviewsScreen__review {
+	position: relative;
+}
+.reviewsScreen__review p {
+	font-size: 14px;
+	margin-top: 20px;
+	white-space: pre-line;
+	max-height: 100px;
+	overflow: hidden;
+	/*-webkit-mask-image: linear-gradient(180deg, #000 60%, transparent);*/
+}
+
+#moreText {
+	max-height: none;
+	height: auto;
+	-webkit-mask-image: none;
+}
+
+.reviewsScreen__moreTextButton {
+	border: none;
+	outline: none;
+	color: #1c7ece;
+	font-size: 14px;
+	background-color: transparent;
+	margin-top: 10px;
+	cursor: pointer;
+}
+
+#moreTextButton {
+	display: none;
+}
+.reviewsScreen__moreIcon {
+	position: absolute;
+	right: 15px;
+	top: 20px;
+	color: #999;
+	z-index: 800;
+}
+.reviewsScreen__moreIcon:hover {
+	color: #696969;
+	cursor: pointer;
+}
+.reviewsScreen__setting {
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	background-color: #f8f8f8;
+	position: absolute;
+	right: 0px;
+	top: 0px;
+	box-sizing: border-box;
+	height: 100px;
+	width: 170px;
+	border-radius: 8px;
+	box-shadow: 0 2px 4px rgb(112 112 112 / 33%);
+	padding: 15px;
+}
+.reviewsScreen__setting button {
+	border: none;
+	outline: none;
+	background: transparent;
+	padding: 10px;
+	color: #707070;
+	cursor: pointer;
+}
+.reviewsScreen__setting button:hover {
+	color: black;
+}
+
+.reviewsScreen__text {
+	font-size: 14px;
+}

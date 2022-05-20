@@ -1,0 +1,29 @@
+.securitySettingsScreen {
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+}
+
+.securitySettingsScreen__text {
+	font-size: 14px;
+}
+.securitySettingsScreen__button {
+	background-color: transparent;
+	font-size: 14px;
+	color: #d52925;
+	height: 42px;
+	padding: 20px;
+	outline: none;
+	border: 1px solid #d52925;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border-radius: 3px;
+	margin-top: 20px;
+	font-weight: 500;
+}
+.securitySettingsScreen__button:hover {
+	background-color: #d52925;
+	color: white;
+	cursor: pointer;
+}

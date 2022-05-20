@@ -1,0 +1,18 @@
+.reviewsScreen__myReviewTitle {
+	font-size: 16px;
+	color: #363636;
+	margin-bottom: 15px;
+}
+.reviewsScreen__authorContainer {
+	display: flex;
+	align-items: center;
+}
+.reviewsScreen__authtorEmail {
+	font-size: 14px;
+	margin-right: 5px;
+	color: #363636;
+}
+.reviewsScreen__authtorDate {
+	color: #707070;
+	font-size: 14px;
+}

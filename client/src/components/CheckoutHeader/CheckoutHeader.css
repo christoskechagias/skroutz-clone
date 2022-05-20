@@ -1,0 +1,63 @@
+.checkoutHeader {
+	display: flex;
+	align-items: center;
+	padding: 0px 30px;
+	padding-top: 20px;
+	max-width: 1500px;
+	width: 100%;
+	box-sizing: border-box;
+}
+.checkoutHeader__logo {
+	margin-right: 100px;
+	padding-bottom: 20px;
+}
+.checkoutHeader__logo img {
+	object-fit: contain;
+	height: 56px;
+	width: 200px;
+}
+.checkoutHeader__paymentProgress,
+.checkoutHeader__checkoutProgress {
+	display: flex;
+	align-items: center;
+	margin-right: 80px;
+	margin-top: 30px;
+	border: none;
+	outline: none;
+	color: #bbb;
+	padding-bottom: 27px;
+}
+
+.checkoutHeader__paymentProgress:hover,
+.checkoutHeader__checkoutProgress:hover {
+	color: #707070;
+	cursor: pointer;
+}
+
+.checkoutHeader__checkoutProgressIcon,
+.checkoutHeader__paymentProgressIcon {
+	object-fit: contain;
+	height: 32px;
+	width: 40px;
+	margin-right: 5px;
+}
+
+@media (max-width: 960px) {
+	.checkoutHeader__logo img {
+		object-fit: contain;
+		height: 38px;
+		width: 138px;
+	}
+	.checkoutHeader__paymentProgress,
+	.checkoutHeader__checkoutProgress {
+		display: flex;
+		align-items: center;
+		margin-right: 50px;
+		margin-top: 15px;
+	}
+}
+@media (max-width: 700px) {
+	.checkoutHeader__logo {
+		display: none;
+	}
+}

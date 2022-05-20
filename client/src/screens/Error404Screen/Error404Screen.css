@@ -1,0 +1,33 @@
+.error404Screen__content {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background-color: #f3d3d6;
+	font-size: 18px;
+	padding: 30px;
+}
+
+.error404Screen__content p {
+	margin-right: 10px;
+}
+.error404Screen__content a {
+	color: #707070;
+	border-bottom: 1px solid #bbbbbb;
+}
+.error404Screen__image1 {
+	object-fit: contain;
+	width: 100%;
+}
+.error404Screen__image2 {
+	display: none;
+}
+@media (max-width: 600px) {
+	.error404Screen__image1 {
+		display: none;
+	}
+	.error404Screen__image2 {
+		display: inline;
+		object-fit: contain;
+		width: 100%;
+	}
+}

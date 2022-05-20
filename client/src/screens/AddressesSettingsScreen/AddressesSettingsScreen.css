@@ -1,0 +1,39 @@
+.addressesSettingsScreen {
+	display: flex;
+	flex-direction: column;
+}
+.addressesSettingsScreen__addNewAddress {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	border: 2px dashed #dcdcdc;
+	text-align: center;
+	padding: 20px;
+	box-sizing: border-box;
+	overflow: hidden;
+	min-height: 300px;
+}
+.addressesSettingsScreen__addNewAddressText {
+	font-size: 16px;
+	color: #707070;
+}
+.addressesSettingsScreen__addNewAddressLink {
+	margin-top: 10px;
+	background-color: #1c7ece;
+	color: white;
+	border: 1px solid #1768aa;
+	border-radius: 4px;
+	font-size: 14px;
+	font-weight: 500;
+	padding: 10px 0px;
+	cursor: pointer;
+}
+.addressesSettingsScreen__addNewAddressLink:hover {
+	background-color: #1768aa;
+}
+.addressesSettingsScreen__addresses {
+	display: grid;
+	grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+	grid-gap: 10px;
+}
+

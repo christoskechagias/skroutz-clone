@@ -1,0 +1,160 @@
+.orderCard {
+	background-color: white;
+	margin-bottom: 20px;
+	border: 1px solid #dcdcdc;
+	border-radius: 7px;
+	padding: 20px;
+	box-sizing: border-box;
+}
+.orderCard__main {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+.orderCard__orderItemsImage {
+	display: flex;
+	flex-direction: column;
+	overflow-y: auto;
+	max-height: 180px;
+	margin-right: 20px;
+	width: 90px;
+}
+.orderCard__orderItemsImage img {
+	object-fit: contain;
+	height: 60px;
+	width: 50px;
+	margin-bottom: 20px;
+}
+.orderCard__informations {
+	width: 100%;
+	position: relative;
+}
+
+.orderCard__top {
+	display: flex;
+	margin-bottom: 10px;
+	width: 100%;
+}
+.orderCard__bottom {
+	display: grid;
+	grid-template-columns: 30% 30% 30%;
+	grid-gap: 10%;
+}
+.orderCard__inProgress {
+	font-size: 16px;
+	font-weight: 700;
+	color: #1c7ece;
+}
+
+.orderCard__delivered {
+	font-size: 16px;
+	font-weight: 700;
+	color: #50b64a;
+	display: flex;
+	align-items: center;
+}
+.orderCard__canceled {
+	font-size: 16px;
+	font-weight: 700;
+	color: #d52925;
+}
+.orderCard__orderCreatedAt {
+	margin-top: 10px;
+	font-size: 14px;
+	text-transform: capitalize;
+}
+
+.orderCard__detailsLink {
+	width: 300px;
+	border: 1px solid #1c7ece;
+	border-radius: 6px;
+	text-align: center;
+	margin: auto;
+	margin-top: 30px;
+	position: absolute;
+	top: -30px;
+	right: 0px;
+}
+.orderCard__detailsLink p {
+	color: #1c7ece;
+	padding: 10px;
+	font-size: 14px;
+}
+.orderCard__detailsLink:hover p {
+	color: white;
+	background-color: #1c7ece;
+}
+
+.orderCard__orderId,
+.orderCard__shippingAddress,
+.orderCard__shipment {
+	display: flex;
+	flex-direction: column;
+	font-size: 14px;
+}
+
+.orderCard__shipment p,
+.orderCard__shippingAddress p,
+.orderCard__orderId p {
+	color: #707070;
+	margin-bottom: 5px;
+}
+
+@media (max-width: 1400px) {
+	.orderCard__orderId,
+	.orderCard__shippingAddress,
+	.orderCard__shipment {
+		display: flex;
+		flex-direction: column;
+		font-size: 14px;
+		margin-top: 20px;
+	}
+}
+
+@media (max-width: 1020px) {
+	.orderCard__main {
+		display: flex;
+		flex-direction: row-reverse;
+	}
+
+	.orderCard__bottom {
+		display: flex;
+		flex-wrap: wrap;
+	}
+	.orderCard__orderId,
+	.orderCard__shippingAddress,
+	.orderCard__shipment {
+		display: flex;
+		flex-direction: column;
+		font-size: 14px;
+		margin-top: 20px;
+	}
+	.orderCard__orderItemsImage img {
+		object-fit: contain;
+		height: 50px;
+		width: 60px;
+		margin-bottom: 20px;
+		margin-right: 0px;
+	}
+	.orderCard__detailsLink {
+		width: 300px;
+		border: 1px solid #1c7ece;
+		border-radius: 6px;
+		text-align: center;
+		margin: auto;
+		margin-top: 30px;
+		position: initial;
+	}
+}
+@media (max-width: 800px) {
+	.orderCard__main {
+		display: flex;
+		flex-direction: column;
+	}
+	.orderCard__orderItemsImage {
+		display: flex;
+		flex-direction: row;
+		overflow-y: auto;
+		width: 100%;
+	}
+}

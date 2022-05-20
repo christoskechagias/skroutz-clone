@@ -1,0 +1,100 @@
+.cartDropdownMenu {
+	background-color: white;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	box-shadow: 0px 0px 7px -1px #707070;
+	border-radius: 5px;
+	padding: 20px;
+}
+.cartDropdownMenu__title {
+	font-size: 14px;
+	color: black;
+	font-weight: 700;
+}
+.cartDropdownMenu::after {
+	content: ' ';
+	position: absolute;
+	right: 15px;
+	top: -12px;
+	border-top: none;
+	border-right: 10px solid transparent;
+	border-left: 10px solid transparent;
+	border-bottom: 12px solid white;
+}
+/*Full Cart*/
+.cartDropdownMenu__product {
+	display: grid;
+	grid-template-columns: 50px auto 20px;
+	grid-gap: 10px;
+	align-items: center;
+	padding: 15px 0px;
+	font-size: 13px;
+}
+.cartDropdownMenu__product img {
+	object-fit: contain;
+	height: 50px;
+	width: 50px;
+	border-radius: 5px;
+}
+.cartDropdownMenu__productName {
+	margin-bottom: 10px;
+}
+.cartDropdownMenu__productName:hover {
+	text-decoration: underline;
+}
+.cartDropdownMenu__productDeleteIcon {
+	width: 18px;
+	height: 18px;
+	color: #999;
+}
+.cartDropdownMenu__productDeleteIcon:hover {
+	color: #f68b24;
+	cursor: pointer;
+}
+
+.cartDropdownMenu__seeYourCart {
+	box-shadow: rgba(0, 0, 0, 1) 0px -4px 10px -12px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.cartDropdownMenu__seeYourCartButton {
+	background-color: #50b64a;
+	border: 1px solid #43993e;
+	color: white;
+	border-radius: 5px;
+	text-align: center;
+	padding: 10px;
+	width: 80%;
+	margin-top: 20px;
+	font-size: 14px;
+}
+.cartDropdownMenu__seeYourCartButton:hover {
+	background-color: #43993e;
+	cursor: pointer;
+}
+
+/*EmptyCart*/
+.cartDropdownMenu__empty {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+.cartDropdownMenu__empty img {
+	object-fit: contain;
+	height: 120px;
+	width: 120px;
+}
+.cartDropdownMenu__empty p {
+	margin-top: 20px;
+	font-size: 14px;
+	color: #707070;
+}
+.cartDropdownMenu__empty a {
+	font-size: 14px;
+	margin-top: 15px;
+}
+.cartDropdownMenu__empty a:hover {
+	text-decoration: underline;
+}

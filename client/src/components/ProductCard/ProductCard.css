@@ -1,0 +1,365 @@
+.productCard {
+	display: flex;
+	flex-direction: column;
+	background-color: white;
+	height: 470px;
+	border-radius: 4px;
+	overflow: hidden;
+	position: relative;
+}
+
+.productCard__icons {
+	position: absolute;
+	right: 5px;
+	top: 10px;
+}
+.productCard__moreIcon {
+	display: none !important;
+}
+
+.productCard__informations {
+	margin: 15px;
+}
+.productCard__image {
+	margin: 40px 0px 0px 0px;
+	display: flex;
+	justify-content: center;
+}
+.productCard__image img {
+	object-fit: contain;
+	height: 240px;
+}
+
+.productCard__name {
+	font-size: 16px;
+	font-weight: 500;
+	height: 44px;
+}
+
+.productCard__description {
+	font-size: 14px;
+	font-weight: 500;
+	color: #7e7e7e;
+	margin-top: 10px;
+	display: -webkit-box;
+	-webkit-line-clamp: 2;
+	-webkit-box-orient: vertical;
+	overflow: hidden;
+}
+.productCard__reviews {
+	display: flex;
+	align-items: center;
+	margin-top: 10px;
+}
+.productCard__numberOfReviews {
+	margin-left: 3px;
+	font-size: 13px;
+	color: #363636;
+}
+.productCard__numberOfReviews:hover {
+	color: #f9af68;
+}
+.productCard__price {
+	font-size: 18px;
+	font-weight: 700;
+	margin-top: 10px;
+	width: fit-content;
+}
+.productCard__price span {
+	font-size: 14px;
+	font-weight: 500;
+	color: #7e7e7e;
+}
+
+#productCard__withVariationsList:hover .productCard__informations {
+	transform: translateY(-75px);
+	transition: 0.2s ease 0.2s;
+}
+
+#productCard__withVariationsList:hover .productCard__image {
+	transform: translateY(-35px) scale(0.7);
+	transition: 0.2s ease 0.2s;
+	cursor: pointer;
+}
+
+.productCard__variationsList {
+	display: flex;
+	justify-content: start;
+	margin-top: 20px;
+}
+
+.productCard__variationProduct {
+	margin: 0px 5px;
+	object-fit: contain;
+	cursor: pointer;
+	border-radius: 4px;
+}
+.productCard__variationProduct:hover {
+	box-shadow: 0px 0px 2px 1px #999;
+	transition: 0.4s ease;
+	opacity: 1;
+}
+.productCard__variationProductImage {
+	object-fit: contain;
+	height: 40px;
+	width: 40px;
+	padding: 3px;
+}
+.productCard__deleteIcon {
+	display: none;
+}
+
+@media (max-width: 580px) {
+	.productCard {
+		display: flex;
+		background-color: white;
+		position: relative;
+		height: 160px;
+		width: 100%;
+		max-width: 500px;
+	}
+	.productCard__content {
+		display: flex;
+		align-items: center;
+	}
+	.productCard__image {
+		margin: 10px;
+	}
+	.productCard__image img {
+		object-fit: contain;
+		width: 90px;
+		height: 90px;
+	}
+
+	.productCard__name {
+		font-size: 14px;
+		font-weight: 500;
+		width: 100%;
+		white-space: nowrap;
+		overflow: hidden;
+		text-overflow: ellipsis;
+		height: fit-content;
+		margin-top: 20px;
+	}
+	.productCard__informations {
+		font-size: 13px;
+		font-weight: 500;
+		color: #7e7e7e;
+		width: 65%;
+		margin: 0px;
+	}
+	.productCard__price {
+		font-size: 16px;
+		font-weight: 700;
+		margin: 10px 0px 0px 0px;
+	}
+	.productCard__reviews {
+		display: flex;
+		align-items: center;
+		margin: 10px 0px 0px 0px;
+	}
+	.productCard__price span {
+		font-size: 13px;
+		font-weight: 500;
+		color: #7e7e7e;
+	}
+
+	.productCard__variationsList {
+		display: none;
+	}
+
+	#productCard__withVariationsList:hover .productCard__informations {
+		transform: initial;
+	}
+	#productCard__withVariationsList:hover .productCard__image {
+		transform: initial;
+		cursor: pointer;
+	}
+}
+@media (max-width: 483px) {
+	.productCard__image {
+		margin: 10px;
+	}
+	.productCard__image img {
+		object-fit: contain;
+		width: 50px;
+		height: 80px;
+	}
+	.productCard__name {
+		width: 225px;
+	}
+}
+/* FavoriteCard*/
+
+.favoriteCard {
+	display: flex;
+	flex-direction: column;
+	background-color: white;
+	border: 1px solid #e8e8e8;
+	max-width: auto;
+	width: 100%;
+	border-radius: 8px;
+	overflow: hidden;
+	position: relative;
+	border-radius: 8px;
+}
+
+.favoriteCard__icons {
+	display: flex;
+	position: absolute;
+	right: 10px;
+	top: 10px;
+	z-index: 1;
+}
+.favoriteCard__compareIcon {
+	display: none !important;
+}
+
+.favoriteCard__informations {
+	margin: 15px;
+}
+.favoriteCard__image {
+	display: flex;
+	justify-content: center;
+	margin-bottom: 68px;
+	margin-top: 68px;
+}
+.favoriteCard__image img {
+	object-fit: contain;
+	height: 150px;
+	width: 124px;
+}
+
+.favoriteCard__name {
+	font-size: 16px;
+	font-weight: 500;
+}
+.favoriteCard__name:hover {
+	text-decoration: underline;
+}
+.favoriteCard__price {
+	font-size: 18px;
+	font-weight: 700;
+	margin-top: 20px;
+	width: fit-content;
+}
+.favoriteCard__price span {
+	display: none;
+}
+
+.favoriteCard__deleteIcon {
+	display: none;
+}
+@media (max-width: 580px) {
+	.favoriteCard {
+		display: flex;
+		flex-direction: column;
+		background-color: white;
+		height: 380px;
+		width: 100%;
+		border-radius: 5px;
+		overflow: hidden;
+		position: relative;
+		padding: 20px;
+		box-sizing: border-box;
+	}
+
+	.favoriteCard__icons {
+		display: flex;
+		position: absolute;
+		right: 10px;
+		top: 10px;
+		z-index: 1;
+	}
+
+	.favoriteCard__informations {
+		display: flex;
+		flex-direction: column;
+	}
+	.favoriteCard__image {
+		margin-top: 40px;
+		display: flex;
+		justify-content: center;
+		margin-bottom: 80px;
+	}
+	.favoriteCard__image img {
+		object-fit: contain;
+		height: 150px;
+		width: 110px;
+	}
+	.favoriteCard__informations {
+		margin: 0px;
+	}
+	.favoriteCard__name {
+		font-size: 16px;
+		font-weight: 500;
+	}
+
+	.favoriteCard__price {
+		font-size: 18px;
+		font-weight: 700;
+	}
+	.favoriteCard__price span {
+		display: none;
+	}
+}
+
+/* CompareCard*/
+.compareCard {
+	display: flex;
+	flex-direction: column;
+	background-color: white;
+	border: 1px solid #e8e8e8;
+	border-radius: 8px;
+	box-sizing: border-box;
+}
+.compareCard__content {
+	max-width: auto;
+	width: 93%;
+	margin: auto;
+	padding: 10px 0px;
+}
+.compareCard__icons {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.compareCard__deleteIcon {
+	color: #bbbbbb;
+	cursor: pointer;
+}
+.compareCard__compareIcon {
+	display: none;
+}
+.compareCard__image {
+	display: flex;
+	justify-content: center;
+	margin-bottom: 30px;
+	margin-top: 10px;
+}
+.compareCard__image img {
+	object-fit: contain;
+	height: 150px;
+	width: 124px;
+}
+
+.compareCard__name {
+	font-size: 16px;
+	font-weight: 500;
+	display: -webkit-box;
+	-webkit-line-clamp: 1;
+	-webkit-box-orient: vertical;
+	overflow: hidden;
+}
+.compareCard__name:hover {
+	text-decoration: underline;
+}
+.compareCard__price {
+	font-size: 18px;
+	font-weight: 700;
+	margin-top: 20px;
+	width: fit-content;
+}
+.compareCard__price span {
+	display: none;
+}

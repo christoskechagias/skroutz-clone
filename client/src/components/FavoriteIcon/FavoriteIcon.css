@@ -1,0 +1,26 @@
+.favoriteIcon {
+	border: none;
+	background-color: transparent;
+	outline: none;
+	border-radius: 50%;
+	box-sizing: border-box;
+	cursor: pointer;
+	width: 35px;
+	height: 35px;
+}
+#productCard__favoriteBorderIcon {
+	color: #999;
+	height: 23px;
+	width: 23px;
+	cursor: pointer;
+}
+#productCard__favoriteBorderIcon:hover {
+	color: #f56353;
+}
+
+#productCard__favoriteIcon {
+	color: #f56353;
+	cursor: pointer;
+	height: 23px;
+	width: 23px;
+}

@@ -1,0 +1,24 @@
+.googleLoginRegister__withGoogle {
+	display: grid;
+	grid-template-columns: 40px 200px;
+	align-items: center;
+	text-align: center;
+	outline: none;
+	border: none;
+	cursor: pointer;
+	height: 42px;
+	color: white;
+	border-radius: 5px;
+	margin-bottom: 30px;
+	padding: 0px 20px;
+	font-size: 14px;
+}
+
+.googleLoginRegister__withGoogle {
+	background-color: rgb(218, 63, 32);
+}
+
+.googleLoginRegister__withGoogle:hover {
+	background-color: rgb(196, 56, 28);
+	transition: 0.5s ease;
+}

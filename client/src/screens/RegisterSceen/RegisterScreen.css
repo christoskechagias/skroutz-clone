@@ -1,0 +1,108 @@
+.registerScreen {
+	background-color: #f1f1f1;
+	height: 100vh;
+}
+.registerScreen_container {
+	text-align: center;
+	width: 100%;
+	max-width: 500px;
+	margin: auto;
+}
+.registerScreen_logoImage {
+	object-fit: contain;
+	width: 140px;
+	cursor: pointer;
+	margin: 100px 0px 30px 0px;
+}
+.registerScreen__formContainer {
+	max-width: 400px;
+	width: 100%;
+	height: 100%;
+	margin: auto;
+	border-radius: 20px;
+	background-color: #f8f8f8;
+	padding: 30px;
+	box-sizing: border-box;
+	border: 1px solid lightgray;
+}
+
+.registerScreen__googleLoginContainer {
+	margin-top: 10px;
+}
+
+.registerScreen__or {
+	width: 100%;
+	border-bottom: 1px solid lightgrey;
+	line-height: 0.1em;
+	margin: 30px 0px;
+}
+.registerScreen__or span {
+	background-color: #f8f8f8;
+	padding: 0 10px;
+	color: #707070;
+	font-size: 14px;
+}
+
+.registerScreen_passwordContainer input,
+.registerScreen_emailContainer input {
+	width: 100%;
+	height: 42px;
+	border-radius: 5px;
+	border: 1px solid lightgray;
+	margin-bottom: 10px;
+}
+
+.registerScreen__button {
+	width: 100%;
+	color: white;
+	outline: none;
+	border: 1px solid rgb(206, 115, 29);
+	height: 42px;
+	font-size: 14px;
+	font-weight: 500;
+	background-color: rgb(247, 148, 55);
+	border-radius: 5px;
+	margin-bottom: 25px;
+}
+.registerScreen__button:hover:enabled {
+	background-color: #f7851b;
+	cursor: pointer;
+	transition: 0.5s ease;
+}
+.registerScreen__button:disabled {
+	cursor: not-allowed;
+    opacity: 0.5;
+}
+
+.registerScreen__policyContainer {
+	margin-top: 30px;
+}
+.registerScreen__policyText {
+	color: #363636;
+	font-size: 14px;
+}
+.registerScreen__policyText a {
+	color: #1c7ece;
+	font-size: 14px;
+}
+
+.registerScreen__loginContainer {
+	border-top: 1px solid lightgray;
+
+	margin-top: 10px;
+	padding-top: 20px;
+	margin-right: 10px;
+	color: #707070;
+	font-size: 14px;
+	cursor: context-menu;
+}
+.registerScreen__loginButton {
+	outline: none;
+	border: none;
+	background-color: transparent;
+	color: #1c7ece;
+	cursor: pointer;
+}
+.registerScreen__loginButton:hover {
+	text-decoration: underline;
+}

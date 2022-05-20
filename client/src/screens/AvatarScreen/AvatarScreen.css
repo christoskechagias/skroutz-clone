@@ -1,0 +1,37 @@
+.avatarScreen__avatarIconsList {
+	display: flex;
+	flex-wrap: wrap;
+	width: 100%;
+}
+.avatarScreen__text {
+	font-size: 18px;
+	margin-bottom: 30px;
+}
+.avatarScreen__avatar {
+	object-fit: contain;
+	height: 56px;
+	width: 56px;
+	border-radius: 50%;
+	margin: 10px;
+	border: 2px solid #dcdcdc;
+	box-sizing: border-box;
+}
+.avatarScreen__avatarSelected {
+	object-fit: contain;
+	height: 56px;
+	width: 56px;
+	border-radius: 50%;
+	margin: 10px;
+	border: 2px solid #1c7ece;
+	box-sizing: border-box;
+}
+.avatarScreen__avatar:hover {
+	border: 2px solid #1c7ece;
+	cursor: pointer;
+}
+
+@media (max-width: 640px) {
+	.avatarScreen__icon {
+		margin: 5px;
+	}
+}

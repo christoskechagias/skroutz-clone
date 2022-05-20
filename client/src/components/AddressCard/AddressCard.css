@@ -1,0 +1,65 @@
+.addressCard {
+	width: 100%;
+	min-height: 300px;
+	display: flex;
+	flex-direction: column;
+	border: 1px solid #e8e8e8;
+	background-color: white;
+	padding: 20px;
+	box-sizing: border-box;
+	position: relative;
+	border-radius: 4px;
+}
+.addressCard__title {
+	font-size: 18px;
+	font-weight: 500;
+	width: 100%;
+	margin-bottom: 20px;
+}
+.addressCard__content {
+	color: #707070;
+	font-size: 14px;
+}
+.addressCard__moreIcon {
+	position: absolute;
+	right: 10px;
+	color: #999;
+	z-index: 10;
+}
+.addressCard__moreIcon:hover {
+	color: #696969;
+	cursor: pointer;
+}
+/*Modal*/
+.addressCard__modal {
+	position: absolute;
+	top: 0;
+	right: 0px;
+	background-color: #f8f8f8;
+	width: 180px;
+	height: 100px;
+	border-radius: 4px;
+	display: flex;
+	flex-direction: column;
+	box-sizing: border-box;
+	padding: 25px;
+	box-shadow: 0px 0px 5px 1px lightgray;
+}
+.addressCard__modal a,
+.addressCard__modal button {
+	color: #707070;
+	font-size: 14px;
+	width: fit-content;
+	border: none;
+	background-color: transparent;
+	outline: none;
+	margin-left: 10px;
+}
+.addressCard__modal a {
+	margin-bottom: 10px;
+}
+.addressCard__modal button:hover,
+.addressCard__modal a:hover {
+	color: #3d3d3d;
+	cursor: pointer;
+}

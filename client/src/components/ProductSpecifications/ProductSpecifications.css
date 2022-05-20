@@ -1,0 +1,33 @@
+.productSpecifications {
+	max-width: 1070px;
+	width: 95%;
+	margin: auto;
+}
+.productSpecifications__groupTable {
+	max-width: 700px;
+	width: 95%;
+	border-collapse: collapse;
+}
+.productSpecifications__groupTitle {
+	font-size: 16px;
+	font-weight: 700;
+	color: #363636;
+	margin-top: 20px;
+	margin-bottom: 15px;
+}
+
+.productSpecifications__groupTableRow:nth-child(odd) td {
+	background-color: #e8e8e8;
+}
+.productSpecifications__groupTableRow td {
+	width: 50%;
+	padding: 10px 0px;
+}
+.productSpecifications__groupTableRow td:nth-child(1) {
+	font-size: 14px;
+	color: #707070;
+	padding-left: 10px;
+}
+.productSpecifications__groupTableRow td:nth-child(2) {
+	font-size: 14px;
+}

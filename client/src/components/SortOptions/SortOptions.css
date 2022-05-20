@@ -1,0 +1,79 @@
+.sortOptions__select {
+	position: relative;
+	outline: none;
+	border: 1px solid #bbbbbb;
+	background-color: #f4f4f4;
+	cursor: pointer;
+	font-size: 14px;
+	font-weight: 500;
+	color: #707070;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	border-radius: 4px;
+	box-sizing: border-box;
+}
+.sortOptions__select:hover {
+	background-color: white;
+	color: #1c7ece;
+}
+#openSortMenu {
+	background-color: white;
+	border-bottom: 1px solid transparent;
+	border-bottom-left-radius: 0px;
+	border-bottom-right-radius: 0px;
+}
+.sortOptions__selectSortArrowIcon {
+	margin-left: 10px;
+}
+.sortOptions__options {
+	position: absolute;
+	z-index: 999;
+	background-color: white;
+	border: 1px solid #bbbbbb;
+	border-top: none;
+	display: flex;
+	flex-direction: column;
+	border-bottom-left-radius: 5px;
+	border-bottom-right-radius: 5px;
+	box-sizing: border-box;
+}
+.sortOptions__options button {
+	border: none;
+	background-color: transparent;
+	cursor: pointer;
+	font-size: 14px;
+	font-weight: 500;
+	color: #707070;
+	text-align: left;
+}
+.sortOptions__options button:hover {
+	color: #1c7ece;
+}
+
+#reviews__menu button {
+	width: 143px;
+	height: 43px;
+	padding: 0 20px;
+}
+#reviews__options {
+	width: 143px;
+}
+#reviews__options button {
+	width: 143px;
+	padding: 0 20px;
+	height: 43px;
+}
+
+#productsList__menu button {
+	width: 165px;
+	height: 43px;
+	padding: 0 20px;
+}
+#productsList__options {
+	width: 165px;
+}
+#productsList__options button {
+	height: 43px;
+	padding: 0 20px;
+}

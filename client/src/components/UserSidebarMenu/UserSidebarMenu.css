@@ -1,0 +1,44 @@
+.sidebarUserMenu {
+	background-color: #f8f8f8;
+	width: 290px;
+	height: 600px;
+	position: absolute;
+	left: 0px;
+	top: 20px;
+	padding: 20px;
+	box-sizing: border-box;
+	z-index: 999;
+	transition: 350ms;
+}
+
+.sidebarUserMenu__closeIcon {
+	float: right;
+	cursor: pointer;
+}
+.sidebarUserMenu__menuOptions {
+	display: flex;
+	flex-direction: column;
+}
+.sidebarUserMenu__optionTitle {
+	font-size: 14px;
+	color: #999999;
+	margin-bottom: 10px;
+}
+
+.sidebarUserMenu__subOptions {
+	margin-bottom: 20px;
+	border-bottom: 1px solid lightgray;
+	padding-bottom: 10px;
+}
+.sidebarUserMenu__menuOptions:last-child .sidebarUserMenu__subOptions {
+	border-bottom: none;
+}
+.sidebarUserMenu__subOption p {
+	margin-bottom: 10px;
+	font-size: 16px;
+}
+@media (min-width: 1020px) {
+	.sidebarUserMenu {
+		display: none;
+	}
+}

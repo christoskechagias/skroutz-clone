@@ -1,0 +1,131 @@
+.orderScreen__inProgress {
+	font-size: 16px;
+	font-weight: 700;
+	color: #1c7ece;
+}
+
+.orderScreen__delivered {
+	font-size: 16px;
+	font-weight: 700;
+	color: #50b64a;
+	display: flex;
+	align-items: center;
+}
+.orderScreen__canceled {
+	font-size: 16px;
+	font-weight: 700;
+	color: #d52925;
+}
+
+.orderScreen__orderId {
+	font-size: 18px;
+	margin: 10px 0px;
+}
+.orderScreen__orderCreatedAt {
+	font-size: 14px;
+	text-transform: capitalize;
+}
+
+.orderScreen__products {
+	background-color: white;
+	padding: 15px;
+	box-sizing: border-box;
+	margin-top: 20px;
+	border: 1px solid #dcdcdc;
+	border-radius: 5px;
+}
+.orderScreen__product {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	font-size: 14px;
+	border-bottom: 1px solid #dcdcdc;
+	padding-bottom: 5px;
+	margin-bottom: 5px;
+}
+.orderScreen__product:last-child {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	font-size: 14px;
+	border: none;
+	margin-bottom: 0px;
+	padding-bottom: 0px;
+}
+.orderScreen__productInfo {
+	display: flex;
+	align-items: center;
+}
+.orderScreen__productInfo img {
+	object-fit: contain;
+	height: 45px;
+	width: 45px;
+	border: 1px solid #dcdcdc;
+	padding: 4px;
+	margin-right: 20px;
+	border-radius: 5px;
+}
+.orderScreen__productInfo a:hover {
+	text-decoration: underline;
+}
+
+.orderScreen__productPriceAndQuantity {
+}
+
+.orderScreen__orderSynopsis {
+	display: grid;
+	grid-template-columns: 50% 50%;
+}
+
+.orderScreen__orderSynopsisLeftPart p {
+	font-size: 14px;
+	color: #707070;
+	margin-top: 10px;
+}
+.orderScreen__orderSynopsisLeftPart span {
+	font-size: 14px;
+}
+
+.shippingProof {
+	margin-top: 10px;
+}
+.shippingProof a {
+	font-size: 14px;
+	color: #1c7ece;
+}
+.shippingProof a:hover {
+	text-decoration: underline;
+}
+.orderScreen__productsValue,
+.orderScreen__shippingValue {
+	display: flex;
+	justify-content: space-between;
+	margin-top: 10px;
+	font-size: 14px;
+	color: #707070;
+}
+.orderScreen__productsValue span,
+.orderScreen__shippingValue span,
+.orderScreen__totalCart span {
+	color: initial;
+}
+
+.orderScreen__totalCart {
+	display: flex;
+	justify-content: space-between;
+	margin-top: 20px;
+	font-size: 16px;
+	border-top: 1px solid #dcdcdc;
+	padding-top: 10px;
+	font-weight: 700;
+}
+
+@media (max-width: 650px) {
+	.orderScreen__orderSynopsis {
+		display: flex;
+		flex-direction: column;
+	}
+	.orderScreen__orderSynopsisRightPart {
+		margin-top: 20px;
+	}
+}

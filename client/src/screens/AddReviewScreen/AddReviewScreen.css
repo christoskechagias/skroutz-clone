@@ -1,0 +1,86 @@
+.addReviewScreen {
+	max-width: 1500px;
+	width: 90%;
+	margin: auto;
+	display: flex;
+	margin-top: 60px;
+}
+
+.reviews__productImage {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border-radius: 50%;
+	height: 150px;
+	width: 150px;
+	background-color: white;
+	border: 1px solid #e8e8e8;
+	margin-right: 40px;
+}
+.reviews__productImage img {
+	object-fit: contain;
+	height: 100px;
+	width: 100px;
+}
+
+.rating__sections {
+	display: flex;
+	flex-direction: column;
+	max-width: 600px;
+	width: 100%;
+	margin-top: 60px;
+}
+.reviews__productName {
+	font-size: 22px;
+	margin-bottom: 50px;
+	color: #707070;
+}
+
+.rating__starSection {
+	margin-bottom: 30px;
+	position: relative;
+}
+
+.rating__stars {
+	display: flex;
+	align-items: center;
+}
+.rating__stars p {
+	margin-left: 10px;
+	font-weight: 500;
+	font-size: 16px;
+}
+.rating__sectionTitle {
+	font-size: 16px;
+	font-weight: 500;
+	margin-bottom: 10px;
+}
+.rating__commentSection textarea {
+	width: 100%;
+	overflow-y: scroll;
+	height: 80px;
+	resize: none;
+	border: none;
+	outline: none;
+}
+
+.addReviewScreen__publicationButton {
+	display: flex;
+	justify-content: right;
+}
+
+.addReviewScreen__publicationButton button {
+	background-color: #e8760a;
+	color: white;
+	border: none;
+	outline: none;
+	margin: 20px 0px;
+	width: 100px;
+	padding: 10px;
+	border-radius: 4px;
+}
+
+.addReviewScreen__publicationButton button:hover {
+	background-color: #c96609;
+	cursor: pointer;
+}

@@ -1,0 +1,59 @@
+.avatarDropdownMenu {
+	background-color: white;
+	height: 273px;
+	width: 178px;
+	box-shadow: 0px 0px 7px -1px #707070;
+	border-radius: 5px;
+	display: flex;
+	flex-direction: column;
+	padding-top: 20px;
+}
+
+.avatarDropdownMenu::after {
+	content: ' ';
+	position: absolute;
+	right: 15px;
+	top: -12px;
+	border-top: none;
+	border-right: 10px solid transparent;
+	border-left: 10px solid transparent;
+	border-bottom: 12px solid white;
+}
+.avatarDropdownMenu__option {
+	height: 100%;
+	margin-top: auto;
+	margin-bottom: auto;
+	display: flex;
+	align-items: center;
+}
+.avatarDropdownMenu__option:hover {
+	cursor: pointer;
+	color: #1c7ece;
+	background-color: #f8f8f8;
+}
+.avatarDropdownMenu__optionTitle {
+	margin-left: 30px;
+	font-size: 14px;
+}
+
+.avatarDropdownMenu__logoutButton {
+	height: 100%;
+	margin-top: auto;
+	margin-bottom: auto;
+	display: flex;
+	align-items: center;
+	border: none;
+	border-top: 1px solid lightgrey;
+	color: #707070;
+	border-radius: 5px;
+	background-color: white;
+}
+.avatarDropdownMenu__logoutButton:hover {
+	cursor: pointer;
+	color: #1c7ece;
+	background-color: #f8f8f8;
+}
+.avatarDropdownMenu__logoutText {
+	margin-left: 30px;
+	font-size: 14px;
+}

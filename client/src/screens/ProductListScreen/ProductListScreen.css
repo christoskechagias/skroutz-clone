@@ -1,0 +1,125 @@
+.productListScreen {
+	max-width: 1500px;
+	width: 100%;
+	position: relative;
+}
+
+.productListScreen__categoryName {
+	font-size: 26px;
+}
+.productListScreen__categoryName span {
+	font-size: 16px;
+	color: #363636;
+}
+.productListScreen__selectSortMenu {
+	margin-top: 40px;
+	margin-bottom: 15px;
+}
+.productListScreen__compare {
+	display: flex;
+	align-items: center;
+	position: sticky;
+	top: 65px;
+	z-index: 700;
+	width: 200px;
+	float: right;
+	transform: translateY(-90%);
+}
+
+.productListScreen__compareQuantity {
+	display: flex;
+	align-items: center;
+	background-color: #1c7ece;
+	border-top-left-radius: 4px;
+	border-bottom-left-radius: 4px;
+	cursor: pointer;
+	height: 42px;
+	box-sizing: border-box;
+	padding: 10px;
+	width: 80%;
+}
+.productListScreen__compareQuantity:hover {
+	background-color: #1970b8;
+}
+
+.productListScreen__compareIcon {
+	font-size: 18px;
+	color: white;
+	margin: 0px 5px 0px 0px;
+}
+
+.productListScreen__compareQuantity p {
+	border-left: 1px solid white;
+	font-size: 13px;
+	color: white;
+	padding-left: 10px;
+}
+
+.productListScreen__deleteAllFromCompare {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background-color: #1c7ece;
+	border-top-right-radius: 4px;
+	border-bottom-right-radius: 4px;
+	cursor: pointer;
+	margin-left: 1px;
+	width: 20%;
+	border: none;
+	outline: none;
+	height: 42px;
+	box-sizing: border-box;
+	padding: 10px;
+}
+.productListScreen__deleteAllFromCompare:hover {
+	background-color: #1970b8;
+}
+.productListScreen__compareDeleteIcon {
+	color: white;
+	height: 17px;
+	width: 17px;
+}
+
+.productListScreen__cards {
+	display: grid;
+	grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+	grid-gap: 15px;
+}
+
+@media (max-width: 580px) {
+	.productListScreen__cards {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+	}
+	.productListScreen__compare {
+		position: absolute;
+		right: 0px;
+		top: 74px;
+		transform: none;
+	}
+}
+
+@media (max-width: 483px) {
+	.productListScreen__cards {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+	}
+	.productListScreen__compare {
+		position: absolute;
+		right: 0px;
+		top: 74px;
+		transform: none;
+		width: auto;
+	}
+	.productListScreen__compareQuantity span {
+		display: none;
+	}
+	.productListScreen__compareQuantity {
+		width: 65px;
+	}
+	.productListScreen__deleteAllFromCompare {
+		width: 40px;
+	}
+}

@@ -1,0 +1,47 @@
+.header__avatarIcon {
+	object-fit: contain;
+	height: 30px !important;
+	width: 30px !important;
+	cursor: pointer;
+	border: 2px solid black;
+}
+.header__avatarIcon img {
+	object-fit: contain;
+	height: 30px !important;
+	width: 30px !important;
+}
+.header__avatarIcon p {
+	font-size: 25px;
+	margin-bottom: 4px;
+}
+/*Account Menu*/
+.accountMenu__avatarIcon {
+	object-fit: contain;
+	height: 90px !important;
+	width: 90px !important;
+	cursor: pointer;
+	border: 2px solid rgb(156, 156, 156);
+}
+.accountMenu__avatarIcon img {
+	object-fit: contain;
+	height: 90px !important;
+	width: 90px !important;
+}
+
+.accountAlternativeMenu__avatarIcon {
+	object-fit: contain;
+	height: 70px !important;
+	width: 70px !important;
+	cursor: pointer;
+	border: 2px solid rgb(156, 156, 156);
+}
+.accountAlternativeMenu__avatarIcon img {
+	object-fit: contain;
+	height: 70px !important;
+	width: 70px !important;
+}
+.accountMenu__avatarIcon p,
+.accountAlternativeMenu__avatarIcon p {
+	font-size: 40px;
+	margin-bottom: 5px;
+}

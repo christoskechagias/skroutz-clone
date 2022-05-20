@@ -1,0 +1,289 @@
+.noFooter {
+	display: none;
+}
+.footer {
+	margin-bottom: 40px;
+	margin-top: 100px;
+}
+.footer__top {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	max-width: 1360px;
+	width: 95%;
+	margin: auto;
+	box-sizing: border-box;
+	padding: 15px 0px;
+}
+
+/*Card */
+.footer__card {
+	display: flex;
+	align-items: center;
+	cursor: pointer;
+	width: fit-content;
+}
+
+.footer__cardTitle {
+	font-size: 16px;
+	font-weight: 500;
+	color: #707070;
+}
+.footer__cardText {
+	font-size: 14px;
+	font-weight: 500;
+	color: #9b9b9b;
+}
+.footer__card:hover .footer__cardTitle,
+.footer__card:hover .footer__cardText {
+	color: #424242;
+}
+
+.footer__logo {
+	object-fit: contain;
+	height: 35px;
+	cursor: pointer;
+	
+}
+
+.footer__messageIcon,
+.footer__storeIcon {
+	width: 50px !important;
+	height: 50px !important;
+	margin-right: 20px;
+	color: #999;
+}
+.footer__card:hover .footer__messageIcon,
+.footer__card:hover .footer__storeIcon {
+	color: #f68b24;
+}
+
+.footer__content {
+	max-width: 1360px;
+	width: 95%;
+	margin: auto;
+}
+.footer__categories {
+	display: grid;
+	grid-template-columns: 25% 25% 25% 25%;
+	height: fit-content;
+	margin: 30px auto;
+	cursor: context-menu;
+}
+
+.footer__column {
+	width: 95%;
+}
+.footer__columnTitle {
+	color: #5c5c5c;
+	font-weight: 500;
+	font-size: 18px;
+	margin-right: 20px;
+	border-bottom: 1px solid lightgray;
+	width: 100%;
+}
+
+.footer__contentRowTitle {
+	font-size: 16px;
+	margin-top: 20px;
+	color: #5c5c5c;
+	font-weight: 500;
+}
+.footer__contentRowText {
+	font-size: 14px;
+	color: #5c5c5c;
+	margin-top: 10px;
+}
+.footer__contentRowText:hover {
+	text-decoration: underline;
+	cursor: pointer;
+}
+
+#category {
+	display: flex;
+}
+#category p {
+	padding: 10px;
+}
+
+#category p:hover {
+	cursor: pointer;
+	border-radius: 5px;
+}
+.footer__categoriesLinksFirstColumn p,
+.footer__categoriesLinksSecondColumn p {
+	font-size: 14px;
+	color: #363636;
+}
+.footer__categoriesLinksFirstColumn a:hover:nth-child(1) p {
+	background-color: #1d84b0;
+}
+.footer__categoriesLinksFirstColumn a:hover:nth-child(2) p {
+	background: #bca580;
+}
+.footer__categoriesLinksFirstColumn a:hover:nth-child(3) p {
+	background: #6f69ad;
+}
+.footer__categoriesLinksFirstColumn a:hover:nth-child(4) p {
+	background: #20a8a6;
+}
+.footer__categoriesLinksFirstColumn a:hover:nth-child(5) p {
+	background: #dd6c75;
+}
+.footer__categoriesLinksSecondColumn a:hover:nth-child(1) p {
+	background-color: #feb555;
+}
+.footer__categoriesLinksSecondColumn a:hover:nth-child(2) p {
+	background: #6d7a87;
+}
+.footer__categoriesLinksSecondColumn a:hover:nth-child(3) p {
+	background: #a2a2a2;
+}
+.footer__categoriesLinksSecondColumn a:hover:nth-child(4) p {
+	background: #f68b24;
+}
+
+.footer__skroutzit {
+	display: grid;
+	grid-template-columns: 40% 40%;
+	max-width: 1360px;
+	width: 90%;
+	margin: 20px 0px;
+}
+.footer__skroutzitColumn {
+	display: flex;
+	align-items: center;
+}
+.footer__skroutzitColumn p {
+	color: #5c5c5c;
+	font-weight: 500;
+	font-size: 17px;
+	margin-right: 10px;
+}
+
+.footer__facebookIcon,
+.footer__twitterIcon,
+.footer__instagramIcon,
+.footer__appleStoreIcon,
+.footer__googlePlayStoreIcon {
+	object-fit: contain;
+	height: 35px;
+	width: 35px;
+	filter: grayscale(100%);
+	opacity: 0.5;
+	margin: 3px;
+	border-radius: 2px;
+}
+.footer__facebookIcon {
+	color: #2f5c98;
+}
+
+.footer__instagramIcon {
+	color: #c0aa93;
+}
+.footer__twitterIcon {
+	color: #31aeee;
+}
+.footer__appleStoreIcon {
+	color: #858585;
+}
+.footer__googlePlayStoreIcon {
+	color: #858585;
+	width: 30px;
+	height: 30px;
+}
+
+.footer__twitterIcon:hover,
+.footer__instagramIcon:hover,
+.footer__facebookIcon:hover,
+.footer__appleStoreIcon:hover,
+.footer__googlePlayStoreIcon:hover {
+	filter: grayscale(0%);
+	opacity: 1;
+}
+
+.footer__policy {
+	display: flex;
+}
+
+.footer__policy p,
+.footer__policyLinks {
+	font-size: 14px;
+	color: #707070;
+}
+
+.footer__policyLinks {
+	margin: 0 5px;
+}
+
+.footer__policyLinks a {
+	margin: 0 5px;
+	color: #535353;
+}
+.footer__policy a:hover {
+	text-decoration: underline;
+}
+
+@media (max-width: 1320px) {
+	#category {
+		flex-direction: column;
+	}
+	#category p {
+		padding: 5px;
+	}
+}
+
+@media (max-width: 960px) {
+	.footer__categories {
+		grid-template-columns: 50% 50%;
+	}
+	.footer__column {
+		margin-bottom: 20px;
+	}
+	.footer__cardText {
+		display: none;
+	}
+	.footer__logo {
+		object-fit: contain;
+		height: 40px;
+	}
+	.footer__storeIcon,
+	.footer__messageIcon {
+		height: 40px !important;
+		margin-right: 5px;
+	}
+	.footer__skroutzitColumn {
+		display: flex;
+		flex-direction: column;
+		align-items: flex-start;
+	}
+	.footer__policy {
+		flex-direction: column;
+	}
+	.footer__policyLinks {
+		margin: 0;
+	}
+}
+@media (max-width: 560px) {
+	.footer__cardTitle {
+		font-size: 13px;
+	}
+	.footer__top {
+		display: flex;
+		justify-content: flex-start;
+	}
+	.footer__card {
+		margin-right: 15px;
+	}
+	.footer__logo {
+		display: none;
+	}
+	.footer__messageIcon,
+	.footer__storeIcon {
+		height: 38px !important;
+		margin-right: 5px;
+	}
+	.footer__skroutzit {
+		display: inline-block;
+	}
+}
