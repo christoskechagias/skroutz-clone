@@ -1,6 +1,8 @@
 # skroutz-clone
 
-This project is only for educational purposes!
+#This project is only for educational purposes!
+
+
 ![skroutz-clone](https://user-images.githubusercontent.com/70820055/169584199-49169c24-08d3-4249-8e00-49a18807d9f7.gif)
 
 ## Run
