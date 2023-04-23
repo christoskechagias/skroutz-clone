@@ -1,4 +1,4 @@
-# skroutz Clone
+# Skroutz Clone
 
 This project is a clone of Skroutz, a popular e-commerce site in Greece. The purpose of this project is to showcase my skills in building a full-stack web application using modern web development technologies.
 
@@ -6,7 +6,7 @@ The project is built using React.js in the frontend with Redux and Saga for stat
 
 By developing this project, I aimed to gain experience in building complex web applications using cutting-edge technologies, and to showcase my skills to potential employers or clients.
 
-
+![skroutz-clone](https://user-images.githubusercontent.com/70820055/169584199-49169c24-08d3-4249-8e00-49a18807d9f7.gif)
 
 ## Table of Contents
 
