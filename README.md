@@ -12,7 +12,7 @@ By developing this project, I aimed to gain experience in building complex web a
 
 - [Getting Started](#getting-started)
 - [Prerequisites](#prerequisites)
-- [Installation - Running the Application](#installation/running-the-application)
+- [nstallation - Running the Application](#installation-running-the-application)
 - [Built With](#built-with)
 - [Authors](#authors)
 - [License](#license)
@@ -33,18 +33,15 @@ Before you can run the application, you must have the following installed on you
 
 1. Clone the repository to your local machine by running the following command:
 
-    ```
+```
 $ git clone https://github.com/kechayias/skroutz-clone.git
- 
-    ```
+ ```
 
 2. Navigate to the cloned repository by running:
-
-    ```
+```
  $ cd skroutz-clone
-    ```
+ ```
 3. To start the backend server, navigate to the `server` directory by running:
-
 ```
 $ cd server
 ```
@@ -55,10 +52,9 @@ $ npm install
 ```
 5. Set up a local MongoDB database. You can download and install it from [here](https://www.mongodb.com/try/download/community).
    In the server folder, create a `.env` file and add the following line to set the database connection string:
-
-    ```
-    MONGODB_URL=mongodb://localhost/skroutz-clone
-    ```
+```
+MONGODB_URL=mongodb://localhost/skroutz-clone
+```
 6. Start the server by running:
 ```
 $ npm run dev
