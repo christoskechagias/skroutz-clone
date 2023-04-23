@@ -12,7 +12,7 @@ By developing this project, I aimed to gain experience in building complex web a
 
 - [Getting Started](#getting-started)
 - [Prerequisites](#prerequisites)
-- [Installation - Running the Application](#installation - running-the-application)
+- [Running the Application](#running-the-application)
 - [Built With](#built-with)
 - [Authors](#authors)
 - [License](#license)
@@ -29,7 +29,7 @@ Before you can run the application, you must have the following installed on you
 - **Node.js**
 - **npm**
 
-### Installation - Running the Application
+### Running the Application
 
 1. Clone the repository to your local machine by running the following command:
 ```
