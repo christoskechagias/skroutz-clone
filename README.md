@@ -20,7 +20,7 @@ By developing this project, I aimed to gain experience in building complex web a
 
 ## Getting Started
 
-To get started with this project, simply clone this repository to your local machine and follow the instructions in the [Installing](#installing) section.
+To get started with this project, simply clone this repository to your local machine and follow the instructions in the [Installation and Running the Application](#installation-and-running-the-application) section.
 
 ### Prerequisites
 
