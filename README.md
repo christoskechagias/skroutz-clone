@@ -14,7 +14,7 @@ By developing this project, I aimed to gain experience in building complex web a
 - [Prerequisites](#prerequisites)
 - [Installation and Running the Application](#installation-and-running-the-application)
 - [Built With](#built-with)
-- [Authors](#authors)
+- [Legal Disclaimer](#legal-disclaimer)
 - [License](#license)
 
 
@@ -86,4 +86,16 @@ This project was built using the following technologies:
 - **Redux**
 - **Saga**
 - **Node.js**
+
+## Legal Disclaimer
+
+This Skroutz clone is a non-commercial project developed for educational and learning purposes only. It is not intended for commercial use, and the developers are not responsible for any actions taken by users of the application. The use of this application for any purpose other than learning or testing is strictly prohibited.
+
+Please note that the product data used in this application is not real and is used for demonstration purposes only. The product images and descriptions are sourced from publicly available websites and may not reflect the actual details of the products they represent.
+
+This Skroutz clone is not affiliated with, endorsed by, or in any way connected to the official Skroutz website located at https://www.skroutz.gr/. The official Skroutz website is owned and operated by Skroutz S.A. and is intended for commercial use by its users.
+
+From a legal standpoint, this Skroutz clone is intended for educational and learning purposes only. It is not intended to be used for commercial purposes, and any use of this application for commercial gain is strictly prohibited. The developers of this application are not responsible for any legal or regulatory issues that may arise from the use of this application.
+
+If you decide to deploy this application to a live server, please ensure that you comply with any relevant laws and regulations, including data privacy laws and consumer protection laws. The developers of this application are not responsible for any legal or regulatory issues that may arise from the use of this application.
 
