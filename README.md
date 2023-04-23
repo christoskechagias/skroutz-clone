@@ -12,7 +12,7 @@ By developing this project, I aimed to gain experience in building complex web a
 
 - [Getting Started](#getting-started)
 - [Prerequisites](#prerequisites)
-- [Installation - Running the Application](#installation-running-the-application)
+- [Installation-Running the Application](#installation-running-the-application)
 - [Built With](#built-with)
 - [Authors](#authors)
 - [License](#license)
