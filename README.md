@@ -6,7 +6,7 @@ The project is built using React.js in the frontend with Redux and Saga for stat
 
 By developing this project, I aimed to gain experience in building complex web applications using cutting-edge technologies, and to showcase my skills to potential employers or clients.
 
-![skroutz-clone](https://user-images.githubusercontent.com/70820055/169584199-49169c24-08d3-4249-8e00-49a18807d9f7.gif)
+<img src="https://user-images.githubusercontent.com/70820055/169584199-49169c24-08d3-4249-8e00-49a18807d9f7.gif" width="100%">
 
 ## Table of Contents
 
