@@ -33,22 +33,22 @@ Before you can run the application, you must have the following installed on you
 
 1. Clone the repository to your local machine by running the following command:
 ```
-$ git clone https://github.com/kechayias/skroutz-clone.git
+git clone https://github.com/kechayias/skroutz-clone.git
 ```
 
 2. Navigate to the cloned repository by running:
 ```
-$ cd skroutz-clone
+cd skroutz-clone
 ```
 
 3. To start the backend server, navigate to the `server` directory by running:
 ```
-$ cd server
+cd server
 ```
 
 4. Install the required dependencies by running:
 ```
-$ npm install
+npm install
 ```
 
 5. Set up a local MongoDB database. You can download and install it from [here](https://www.mongodb.com/try/download/community).
@@ -58,22 +58,22 @@ MONGODB_URL=mongodb://localhost/skroutz-clone
 ```
 6. Start the server by running:
 ```
-$ npm run dev
+npm run dev
 ```
 
 7. To start the frontend server, navigate to the `client` directory by running:
 ```
-$ cd client
+cd client
 ```
 
 8. Install the required dependencies by running:
 ```
-$ npm install
+npm install
 ```
  
 9. Start the frontend server by running:
 ```
-$ npm start
+npm start
 ```
 
 Once both the frontend and backend servers are running, you can access the application by visiting http://localhost:3000 in your web browser.
